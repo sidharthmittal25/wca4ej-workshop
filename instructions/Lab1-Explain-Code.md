@@ -11,11 +11,17 @@ This document gives step-by-step guide to finish Lab1.
 
 ### 1. Code Asset Download
 
-Download and unzip the `modresorts-twas-j8.zip` file from the [box shared folder](https://ibm.biz/wca-faststart).
+Download and unzip the `modresorts-twas-j8.zip` file, or clone from this [public GitHub repository](https://github.com/Theo-Reignier/wca-faststart):
 
-Open the `modresorts-twas-j8` folder in VScode.
+```bash
+git clone https://github.com/Theo-Reignier/wca-faststart.git
+```
 
-> **Note:** We recommend to *'Initialize Repository'* to enable source control features and keep track of your changes. Commit all the new changes but you don't need to publish the branch. 
+Open the `modresorts-twas-j8` folder in VScode. In order to leverage all WCA features, it's important that you open VScode at the Java application folder level (i.e. `modresorts-twas-j8/`).
+
+![](../images/VSC_folder_explorer.png)
+
+> **Note:** If you used the `.zip` file, we recommend to *'Initialize Repository'* to enable source control features and keep track of your changes. Commit all the new changes but you don't need to publish the branch. 
 
 ![](../images/VSC_initialize_repository.png)
 
