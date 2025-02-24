@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
 import com.ibm.websphere.servlet.response.ResponseUtils;
 
 @WebServlet("/resorts/upper")
@@ -29,6 +30,8 @@ public class UpperServlet extends HttpServlet {
         newStr = ResponseUtils.encodeDataString(newStr);
         
 	    PrintWriter out = response.getWriter();  
-	    out.print("<br/><b>capitalized input " + newStr + "</b>");  
+	    out.print("<br/><b>capitalized input " + newStr + "</b>"); 
+		
+		out.print("<br/><b>adding new code to test ci/cd " + newStr + "</b>"); 
 	}
 }
