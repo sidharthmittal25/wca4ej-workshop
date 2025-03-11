@@ -262,6 +262,10 @@ public class WeatherServlet extends HttpServlet {
 
 	private InitialContext setInitialContextProps() {
 
+		System.out.println("this is a test print to check git push");
+
+
+
 		Hashtable ht = new Hashtable();
 
 		ht.put("java.naming.factory.initial", "com.ibm.websphere.naming.WsnInitialContextFactory");
